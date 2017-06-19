@@ -48,10 +48,7 @@ Various batch files
 |mycopy.bat|MYCOPY.BAT copies any number of files to a directory. The command uses the following syntax:|
 ||      mycopy dir file1 file2 ... |
 |myvar.bat|Set a variable which will remain in the DOS environment after the batch file is completed. To verify this, enter set at the DOS prompt after you run this batch file.|
-|myvar2.bat||
-|||
-|Set a variable which will not affect the DOS environment after the batch file is completed. To verify this, enter set at the DOS prompt after you run this batch file. Combine this and myvar.bat to see what happens. Note: Windows NT or 2000 only.||
-|||
+|myvar2.bat|Set a variable which will not affect the DOS environment after the batch file is completed. To verify this, enter set at the DOS prompt after you run this batch file. Combine this and myvar.bat to see what happens. Note: Windows NT or 2000 only.|
 |p.bat|Set the PATH on the network in L-17.|
 |param.bat|You can access up to nine command-line parameters at any given time.|
 |param2.bat|You can access up to nine command-line parameters at any given time, but you can choose to access only selected parameters, and ignore the rest.|
@@ -68,10 +65,7 @@ Various batch files
 |shift.bat|Demonstrate shift command.|
 |shifter.bat|Demonstrate shift command (no echo).|
 |str1.bat|This demonstrates the form of the if command comparing strings. If you run this batch file without any parameters, you will get an error message.|
-|str2.bat||
-|||
-|This demonstrates the correct form of the if command for comparing strings. If you run this batch file without any parameters, you will not get an error message, because the empty quotes will be on both the left side and on the right side. In the previous batch file (str1.bat) the left side would be blank, causing an error.||
-|||
+|str2.bat|This demonstrates the correct form of the if command for comparing strings. If you run this batch file without any parameters, you will not get an error message, because the empty quotes will be on both the left side and on the right side. In the previous batch file (str1.bat) the left side would be blank, causing an error.|
 |str3.bat|The alternative form of string comparison. In this case, the dot takes up space on the left side if no parameter is given.|
 |sub.bat|This is the batch file called by both main1.bat and main2.bat. It demonstrates the use of shared variables and parameters passed by the call command.|
 |tf1.bat|Demonstrates incorrect if command. If true, goto end. Otherwise, both echo statements are executed.|
