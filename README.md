@@ -2,8 +2,8 @@
 Various batch files
 
 ## Dictionary of files
-|File Name                                  |Description/Usage          |
-|:------------------------------------------|:--------------------------|
+|File Name                                  |Description/Usage                         |
+|:------------------------------------------|:-----------------------------------------|
 |args.bat|Display the use of spaces with echo.|
 |autoexec.bat|AUTOEXEC.BAT file from PC in L-1. Mostly set commands. PATH is a special command which sets the PATH variable. Notice how the Pervasive.SQL 2000 install has messed up the batch file by putting commands before the @Echo off line.|
 |backbat2.bat|Backup batch files (Windows 95/98/ME version)|
