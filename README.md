@@ -56,10 +56,8 @@ Various batch files
 |param4.bat|shift can be used when you need to process more than nine parameters.|
 |param5.bat|shift can be used when you need to process more than nine parameters; you can still access only nine at a time.|
 |rems.bat|This is a comment.|
-|||
-|||
-|||
 |rems2.bat|More comments.|
+|Remove_Cbs_Logs.bat|This is caused by Windows Resource Protection (WRP), which stops programs overwriting essential system files. It keeps its log files in C:\Windows\Logs\CBS. The SFC.exe program writes the details of each verification operation and of each repair operation to the CBS.log file. The CBS.persist.log is generated when the CBS gets to be around 50Mb in size. CBS.log is copied to cbs.persist.log and a new cbs.log file is started. The cbs logs would only be useful for serious troubleshooting issues. If the system is running fine, we can delete this file and SFC.exe will create a new one the next time it is run. So why do we have this mysterious process writing a files in the temp folder?? It appears that on a number of servers we can see the SFC archive process has failed to recycle properly and as a result had been running for a long time.|
 |safepath.bat|This batch file will not affect the DOS PATH. Note: Windows NT or 2000 only.|
 |safepath9x.bat|This batch file will not affect the DOS PATH, by making a copy of the PATH variable beforehand, and restoring it at the end of the batch file.|
 |shift.bat|Demonstrate shift command.|
