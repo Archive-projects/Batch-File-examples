@@ -1,4 +1,4 @@
-# BatchFiles
+# Batch File Examples
 Various batch files
 
 ## Dictionary of files
