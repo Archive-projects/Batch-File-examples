@@ -10,9 +10,7 @@ Various batch files
 |autoexec.bat|AUTOEXEC.BAT file from PC in L-1. Mostly set commands. PATH is a special command which sets the PATH variable. Notice how the Pervasive.SQL 2000 install has messed up the batch file by putting commands before the @Echo off line.|
 |backbat2.bat|Backup batch files (Windows 95/98/ME version)|
 ||      usage:  backbat backupdir|
-||      where:  backupdir  is the directory to copy batch files|
-||                         all batch files in the current directory will|
-||                         be backed up|
+||      where:  backupdir  is the directory to copy batch files all batch files in the current directory will be backed up|
 ||Make sure that there is at least one argument.|
 ||Save the backup directory.|
 ||Check to make sure that the backupdir exists and isn't a file|
@@ -38,8 +36,7 @@ Various batch files
 ||The shift command moves the %1 to %0 and %2 to %1, so that the previous value is replaced.|
 ||If we do another shift, the original %1 (now %0) gets lost.|
 ||Since we stored in the saved variable, we can recover the value. With named (as opposed to numbered) variables, you have to use a percent sign before and after the variable name to get the value.|
-|main1.bat||
-|Demonstrate call command to execute another batch file (sub).||
+|main1.bat|Demonstrate call command to execute another batch file (sub).|
 |main2.bat|Demonstrate call with setting variables and passing parameters.|
 |mbcopy.bat|One possible solution to Lab #2, Part B.|
 ||MBCOPY.BAT copies any number of files or directories to to a directory. The command uses the following syntax:|
