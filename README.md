@@ -11,12 +11,8 @@ Various batch files
 |backbat2.bat|Backup batch files (Windows 95/98/ME version)|
 ||      usage:  backbat backupdir|
 ||      where:  backupdir  is the directory to copy batch files all batch files in the current directory will be backed up|
-||Make sure that there is at least one argument.|
-||Save the backup directory.|
-||Check to make sure that the backupdir exists and isn't a file|
-||If the directory does not exist, create it. Because we can't reliably check the errorlevel in Windows 95/98/ME, check if the directory exists after we do the make directory command.|
-||Copy each batch file one at a time. Note: the for loop variable (%%b) must be contain only one letter.|
-||Use the for loop again to check if each file was copied (since it is difficult to run multiple commands in a for loop).|
+||Make sure that there is at least one argument. Save the backup directory. Check to make sure that the backupdir exists and isn't a file|
+||If the directory does not exist, create it. Because we can't reliably check the errorlevel in Windows 95/98/ME, check if the directory exists after we do the make directory command. Copy each batch file one at a time. Note: the for loop variable (%%b) must be contain only one letter. Use the for loop again to check if each file was copied (since it is difficult to run multiple commands in a for loop).|
 ||Clean up: unset our variable.|
 |badpath.bat|This batch file will mess up your command prompt's PATH setting. Without setlocal and endlocal, set-ting variables changes the DOS environment.|
 |copies.bat|Check various error levels by running copy commands.|
