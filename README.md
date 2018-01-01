@@ -3,7 +3,7 @@
 # Batch File Examples
 Various batch files
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE "MIT License Copyright © 2017 Anthony Duguid")
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE "MIT License Copyright © Anthony Duguid")
 
 ## Dictionary of files
 |File Name                                  |Description/Usage                         |
