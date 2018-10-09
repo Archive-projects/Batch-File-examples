@@ -1,2 +1,0 @@
-PATH=D:\WINNT\system32;D:\WINNT;W:\MBOLDIN\BIN
-
