@@ -5,6 +5,8 @@ Various batch files
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AnthonyDuguid)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE "MIT License Copyright © Anthony Duguid")
+[![Latest Release](https://img.shields.io/github/release/Archive-projects/Batch-File-examples.svg?label=latest%20release)](https://github.com/Archive-projects/Batch-File-examples/releases)
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/Archive-projects/Batch-File-examples/latest.svg)](https://github.com/Archive-projects/Batch-File-examples)
 
 ## Dictionary of files
 |File Name                                  |Description/Usage                         |
