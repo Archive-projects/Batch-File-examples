@@ -8,7 +8,7 @@ Various batch files
 [![Latest Release](https://img.shields.io/github/release/Archive-projects/Batch-File-examples.svg?label=latest%20release)](https://github.com/Archive-projects/Batch-File-examples/releases)
 [![Github commits (since latest release)](https://img.shields.io/github/commits-since/Archive-projects/Batch-File-examples/latest.svg)](https://github.com/Archive-projects/Batch-File-examples)
 
-## Dictionary of files
+## Table of Contents
 |File Name                                  |Description/Usage                         |
 |:------------------------------------------|:-----------------------------------------|
 |[args.bat](/files/args.bat)|Display the use of spaces with echo.|
